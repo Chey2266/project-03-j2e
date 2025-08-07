@@ -4,7 +4,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.Chey2266</groupId>
-    <artifactId>project-03-j2ee</artifactId>
+    <artifactId>project-03-j2e</artifactId>
     <version>1.0-SNAPSHOT</version>
  
     <packaging>war</packaging>
