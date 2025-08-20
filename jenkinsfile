@@ -19,16 +19,9 @@ pipeline {
                 deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: '3fe07e03-12fd-4199-8d53-2929a9dbfaf2', 
                 path: '', 
                 url: 'http://13.204.76.249:8080/')],
-                contextPath: 'project-03-j2e', 
+                contextPath: 'project02', 
                 war: '**/*.war'
             }
-        }
-        stage('add files') {
-            git add jenkinsfile 
-            git add project-03-j2e
-            git commit -m "initial commit"
-            git remote add origin https://github.com/Chey2266/project-03-j2e.git
-            git push -u origin project02
         }
     }
 }
