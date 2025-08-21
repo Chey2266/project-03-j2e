@@ -24,7 +24,7 @@ pipeline {
             }
         }
         stage('add files') {
-            git add jenkinsfile 
+            git add Jenkinsfile 
             git add project-03-j2e
             git commit -m "initial commit"
             git remote add origin https://github.com/Chey2266/project-03-j2e.git
