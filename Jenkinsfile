@@ -34,6 +34,7 @@ pipeline {
             steps {
                 git remote add origin https://github.com/Chey2266/project-03-j2e.git
                 git push -u origin project02
+                git commit -m "initial commit"
             }
         }
     }
