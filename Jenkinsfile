@@ -26,7 +26,6 @@ pipeline {
         stage('add files') {
             steps {
                 sh 'git add Jenkinsfile'
-                sh 'git add project02'
                 sh 'git remote add origin https://github.com/Chey2266/project-03-j2e.git'
                 sh 'git push -u origin project02'
                 sh 'git commit -m "initial commit"'
